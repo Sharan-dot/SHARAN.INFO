@@ -1,0 +1,77 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Header Navigation */
+header {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+header button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+header button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+/* Center Text and Make it Big */
+main h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Backgrounds */
+.home {
+    background: url('../images/home.jpg') no-repeat center center/cover;
+}
+
+.about, .work {
+    background: url('../images/about-work.jpg') no-repeat center center/cover;
+}
+
+.contact {
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+}
