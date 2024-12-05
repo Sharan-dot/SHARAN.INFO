@@ -1,4 +1,4 @@
-<!-- styles.css -->
+<!-- styles.css 
 /* Reset */
 * {
     margin: 0;
@@ -129,7 +129,7 @@ main p {
 </body>
 </html>
 
-<!-- about.html -->
+<!-- about.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -186,7 +186,7 @@ main p {
 </body>
 </html>
 
-<!-- contact.html -->
+<!-- contact.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
