@@ -50,12 +50,12 @@ footer {
     padding: 10px 0;
 }
 
-/* Center Text and Add Dark Background */
+/* Center Text with Solid Black Background */
 main h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    background-color: black; /* Fully black background */
     padding: 10px 20px;
     border-radius: 10px;
     display: inline-block;
@@ -65,7 +65,7 @@ main p {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    background-color: black; /* Fully black background */
     padding: 10px 20px;
     border-radius: 10px;
     display: inline-block;
@@ -87,3 +87,4 @@ main p {
 .work {
     background: url('../work.jpg') no-repeat center center/cover;
 }
+
