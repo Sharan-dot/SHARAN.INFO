@@ -17,6 +17,7 @@ body {
     color: white;
 }
 
+
 /* Header Navigation */
 header {
     position: absolute;
@@ -86,5 +87,19 @@ main p {
 
 .work {
     background: url('../work.jpg') no-repeat center center/cover;
+}
+
+/* Contact Page Specific Styling */
+.contact {
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+}
+
+.contact main {
+    background: black; /* Solid black background */
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    color: white; /* Ensure text remains readable */
 }
 
