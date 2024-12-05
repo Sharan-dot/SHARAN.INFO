@@ -68,11 +68,14 @@ main p {
     background: url('../home.jpg') no-repeat center center/cover;
 }
 
-.about, .work {
-    background: url('../about-work.jpg') no-repeat center center/cover;
+.about {
+    background: url('../about.jpg') no-repeat center center/cover;
 }
 
 .contact {
     background: url('../contact.jpg') no-repeat center center/cover;
+}
+.work{
+    background: url('../work.jpg') no-repeat center center/cover;
 }
 
