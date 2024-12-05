@@ -72,6 +72,17 @@ main p {
     display: inline-block;
 }
 
+/* Highlighted Background for Specific List Items */
+.highlight {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: white; /* Text color */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    margin: 10px 0; /* Space between list items */
+    display: inline-block; /* Keeps the background tight around the text */
+}
+
+
 /* Backgrounds */
 .home {
     background: url('../home.jpg') no-repeat center center/cover;
@@ -89,11 +100,4 @@ main p {
     background: url('../work.jpg') no-repeat center center/cover;
 }
 
-.highlight {
-    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
-    color: white; /* Text color */
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 0; /* Spacing between list items */
-    display: inline-block; /* Keeps the background wrapping tightly around text */
-}
+
