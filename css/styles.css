@@ -65,13 +65,13 @@ main p {
 
 /* Backgrounds */
 .home {
-    background: url('../images/home.jpg') no-repeat center center/cover;
+    background: url('home.jpg') no-repeat center center/cover;
 }
 
 .about, .work {
-    background: url('../images/about-work.jpg') no-repeat center center/cover;
+    background: url('about-work.jpg') no-repeat center center/cover;
 }
 
 .contact {
-    background: url('../images/contact.jpg') no-repeat center center/cover;
+    background: url('contact.jpg') no-repeat center center/cover;
 }
