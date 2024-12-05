@@ -89,17 +89,11 @@ main p {
     background: url('../work.jpg') no-repeat center center/cover;
 }
 
-/* Contact Page Specific Styling */
-.contact {
-    background: url('../images/contact.jpg') no-repeat center center/cover;
+.highlight {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: white; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0; /* Spacing between list items */
+    display: inline-block; /* Keeps the background wrapping tightly around text */
 }
-
-.contact main {
-    background: black; /* Solid black background */
-    border-radius: 15px;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
-    color: white; /* Ensure text remains readable */
-}
-
